@@ -1,4 +1,5 @@
-import numpy as np  
+import numpy as np 
+import math  
 
 def f(x): 
 # The FLOPS of the below equation is around 17
@@ -16,7 +17,7 @@ def secant_method(x0, x1, actual_root, f, tolerance, max_iterations):
 
     Outputs:  
     - [x1, flops, iterations] 
-    - x1: root found by newton's method 
+    - x1: root found by secant's method 
     - flops: Floating Point Operations done 
     - iterations: The number of iterations the method took to find the answer
     """ 
@@ -43,3 +44,4 @@ print("Root: ", results[0])
 print("Flops: ", results[1]) 
 print("Iterations: ", results[2])
         
+    
