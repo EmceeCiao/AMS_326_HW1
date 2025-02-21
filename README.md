@@ -22,11 +22,11 @@ To prevent muddling of dependencies do the following, otherwise skip the next tw
 2. Activate the Virtual Environment:
     - **On Windows:**
       ```bash
-      env\Scripts\activate
+      .\.venv\Scripts\activate
       ```
     - **On macOS/Linux:**
       ```bash
-      source env/bin/activate
+      source venv/bin/activate
       ```
 
 3. If you don't have the required libraries, install them using:
@@ -60,11 +60,11 @@ To prevent muddling of dependencies do the following, otherwise skip the next tw
 2. Activate the Virtual Environment:
     - **On Windows:**
       ```bash
-      env\Scripts\activate
+      .\.venv\Scripts\activate
       ```
     - **On macOS/Linux:**
       ```bash
-      source env/bin/activate
+      source venv/bin/activate
       ```
 
 3. If you don't have the required libraries, install them using:
